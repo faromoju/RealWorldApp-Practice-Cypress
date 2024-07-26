@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<testsuites>
+<testsuite name="Root Suite" timestamp="2024-03-07T17:57:27" tests="0" file="cypress\e2e\shadow.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Shadow DOM Test" timestamp="2024-03-07T17:57:27" tests="1" time="2.672" failures="0">
+  
+  <testcase name="Shadow DOM Test The Actual Test" time="0.703" classname="The Actual Test"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-03-07T17:56:03" tests="0" file="cypress\e2e\firstAPITest.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="API Testing" timestamp="2024-03-07T17:56:03" tests="7" time="63.831" failures="0">
+  
+  <testcase name="API Testing Verify Correct Request and Response" time="13.442" classname="Verify Correct Request and Response"></testcase>
+  
+  <testcase name="API Testing Intercept Request and Response" time="9.109" classname="Intercept Request and Response"></testcase>
+  
+  <testcase name="API Testing Verify Popular Tags are Displayed" time="4.233" classname="Verify Popular Tags are Displayed"></testcase>
+  
+  <testcase name="API Testing Verify Global Likes Count" time="8.874" classname="Verify Global Likes Count"></testcase>
+  
+  <testcase name="API Testing Practice API Testing" time="10.536" classname="Practice API Testing"></testcase>
+  
+  <testcase name="API Testing Delete Article using API" time="15.299" classname="Delete Article using API"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-03-07T17:57:16" tests="0" file="cypress\e2e\secondAPITest.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Second Test Lesson" timestamp="2024-03-07T17:57:16" tests="1" time="6.500" failures="0">
+  
+  <testcase name="Second Test Lesson First Test" time="6.408" classname="First Test"></testcase>
+  
+</testsuite>
+
+</testsuites>

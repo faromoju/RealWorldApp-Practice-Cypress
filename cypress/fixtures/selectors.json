@@ -1,0 +1,31 @@
+{
+  "signUpLabel": "a[routerlink='/register']",
+  "usernameField": "input[formcontrolname='username']",
+  "emailField": "input[formcontrolname='email']",
+  "passwordField": "input[formcontrolname='password']",
+  "signUpButton": "button[type='submit']",
+
+  "signInLabel": "a[routerlink='/login']",
+  "signInEmailField": "input[formcontrolname='email']",
+  "signInPasswordField": "input[formcontrolname='password']",
+  "signInButton": "button[type='submit']",
+
+  "settingsLabel": "a[routerlink='/settings']",
+  "logoutButton": "button[class='btn btn-outline-danger']",
+
+  "articleLabel": "a[routerlink='/editor']",
+  "articleTitleField": "input[formcontrolname='title']",
+  "articleDescField": "input[formcontrolname='description']",
+  "articleBodyField": "textarea[formcontrolname='body']",
+  "publishArticleButton": "fieldset button",
+  "deleteArticleButton": "div[class='article-actions'] button.btn-outline-danger",
+
+  "tagListContainer": "div.tag-list",
+  "tagBoxes": "a[class='tag-default tag-pill']",
+
+  "articleListLikeCount": "app-article-list button.btn",
+  "yourFeedLink": "a[class='nav-link']",
+  "globalFeedLink": "a[class='nav-link']",
+
+  "allArticles": "app-article-preview h1"
+}

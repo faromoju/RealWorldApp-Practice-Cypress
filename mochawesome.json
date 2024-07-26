@@ -1,0 +1,337 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 9,
+    "passes": 8,
+    "pending": 1,
+    "failures": 0,
+    "testsRegistered": 9,
+    "passPercent": 88.88888888888889,
+    "pendingPercent": 11.11111111111111,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2024-03-07T17:56:03.653Z",
+    "end": "2024-03-07T17:57:30.349Z",
+    "duration": 86696
+  },
+  "results": [
+    {
+      "uuid": "66dc3194-2746-40ea-a8ef-37852a96ae9d",
+      "title": "",
+      "fullFile": "cypress\\e2e\\secondAPITest.cy.js",
+      "file": "cypress\\e2e\\secondAPITest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "305505dc-e6c2-4723-9e63-889ca22f5f95",
+          "title": "Second Test Lesson",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "First Test",
+              "fullTitle": "Second Test Lesson First Test",
+              "timedOut": null,
+              "duration": 6408,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.signOutCommand();",
+              "err": {},
+              "uuid": "ef04ce2e-3489-4a7f-9072-b4a553ae636c",
+              "parentUUID": "305505dc-e6c2-4723-9e63-889ca22f5f95",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ef04ce2e-3489-4a7f-9072-b4a553ae636c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6408,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "f07367b2-f497-4517-b976-4275aca72261",
+      "title": "",
+      "fullFile": "cypress\\e2e\\shadow.cy.js",
+      "file": "cypress\\e2e\\shadow.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5b5fddf9-92bf-4b4e-ab6d-debc4aa1ba97",
+          "title": "Shadow DOM Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "The Actual Test",
+              "fullTitle": "Shadow DOM Test The Actual Test",
+              "timedOut": null,
+              "duration": 703,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://radogado.github.io/shadow-dom-demo/');\ncy.get('#app').shadow().find('#container');",
+              "err": {},
+              "uuid": "bed32bd2-3d9b-4cb5-bb6d-142d0694404e",
+              "parentUUID": "5b5fddf9-92bf-4b4e-ab6d-debc4aa1ba97",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bed32bd2-3d9b-4cb5-bb6d-142d0694404e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 703,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "931de52d-2b2e-46d2-941a-724872365784",
+      "title": "",
+      "fullFile": "cypress\\e2e\\firstAPITest.cy.js",
+      "file": "cypress\\e2e\\firstAPITest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f51fd10b-b4f5-4f25-b8b1-031c50ae9f72",
+          "title": "API Testing",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Sign Up Process",
+              "fullTitle": "API Testing Sign Up Process",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "cy.visitWebsite();\n_homePage.homePageObject.SignUpProcess('testuser78', 'testuser@mailer.com', 'password');",
+              "err": {},
+              "uuid": "cd8e470e-b23e-4821-9373-0c03d1d66550",
+              "parentUUID": "f51fd10b-b4f5-4f25-b8b1-031c50ae9f72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify Correct Request and Response",
+              "fullTitle": "API Testing Verify Correct Request and Response",
+              "timedOut": null,
+              "duration": 13442,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_homePage.homePageObject.publishArticle('Test Title', 'Test Description', 'Test Body');",
+              "err": {},
+              "uuid": "186a58ab-2707-45e6-a6b8-84d5854bf73a",
+              "parentUUID": "f51fd10b-b4f5-4f25-b8b1-031c50ae9f72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Intercept Request and Response",
+              "fullTitle": "API Testing Intercept Request and Response",
+              "timedOut": null,
+              "duration": 9109,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_homePage.homePageObject.interceptArticle('Test Title', 'Test Description', 'Test Body');",
+              "err": {},
+              "uuid": "8c419a13-cd95-4390-993f-696d39453c10",
+              "parentUUID": "f51fd10b-b4f5-4f25-b8b1-031c50ae9f72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify Popular Tags are Displayed",
+              "fullTitle": "API Testing Verify Popular Tags are Displayed",
+              "timedOut": null,
+              "duration": 4233,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_homePage.homePageObject.tagsAPITest();",
+              "err": {},
+              "uuid": "adfc8e55-e223-450a-8b3b-6505711c99f3",
+              "parentUUID": "f51fd10b-b4f5-4f25-b8b1-031c50ae9f72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify Global Likes Count",
+              "fullTitle": "API Testing Verify Global Likes Count",
+              "timedOut": null,
+              "duration": 8874,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_homePage.homePageObject.articlesAPITest();",
+              "err": {},
+              "uuid": "c197c78e-4256-4e63-a299-4782dd006fc8",
+              "parentUUID": "f51fd10b-b4f5-4f25-b8b1-031c50ae9f72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Practice API Testing",
+              "fullTitle": "API Testing Practice API Testing",
+              "timedOut": null,
+              "duration": 10536,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_homePage.homePageObject.practiceAPITest();",
+              "err": {},
+              "uuid": "d363aa59-bf29-4bd6-9faf-59ac26b01edb",
+              "parentUUID": "f51fd10b-b4f5-4f25-b8b1-031c50ae9f72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete Article using API",
+              "fullTitle": "API Testing Delete Article using API",
+              "timedOut": null,
+              "duration": 15299,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_homePage.homePageObject.deleteArticle();",
+              "err": {},
+              "uuid": "cde9754d-c931-4cdd-aa57-07b040bb2d48",
+              "parentUUID": "f51fd10b-b4f5-4f25-b8b1-031c50ae9f72",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "186a58ab-2707-45e6-a6b8-84d5854bf73a",
+            "8c419a13-cd95-4390-993f-696d39453c10",
+            "adfc8e55-e223-450a-8b3b-6505711c99f3",
+            "c197c78e-4256-4e63-a299-4782dd006fc8",
+            "d363aa59-bf29-4bd6-9faf-59ac26b01edb",
+            "cde9754d-c931-4cdd-aa57-07b040bb2d48"
+          ],
+          "failures": [],
+          "pending": [
+            "cd8e470e-b23e-4821-9373-0c03d1d66550"
+          ],
+          "skipped": [],
+          "duration": 61493,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
